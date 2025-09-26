@@ -68,16 +68,25 @@ h1:focus {
 
 .card {
     background-color: var(--White);
-    width: 384px;
-    height: auto;
+    max-width: 336px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 24px;
     padding: 24px;
     border-radius: 20px;
     box-shadow: 8px 8px 0px #000000;
     border: 1px solid var(--Gray-950);
+}
+
+.card__image {
+    max-width: 336px;
+    height: auto;
+}
+
+.card__image img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .card__content {
@@ -88,14 +97,8 @@ h1:focus {
     justify-content: flex-start;
 }
 
-.card__image img {
-    border-radius: 10px;
-    width: 100%;
-}
-
 .category {
     background-color: var(--Yellow);
-    text-align: center;
     padding: 4px 12px 4px 12px;
     border-radius: 4px;
     font-weight: 800;
@@ -110,12 +113,13 @@ h1:focus {
     font-weight: 500;
     font-size: 16px;
     color: var(--Gray-500);
+    white-space: inherit;
 }
 
 .card__author {
     display: flex;
-    align-items: center;
     gap: 12px;
+    align-items: center;
 }
 
 .card__author_img {
