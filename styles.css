@@ -55,6 +55,7 @@ p, h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: 800;
     font-size: 24px;
+    line-height: 150%;
 }
 
 h1:hover {
@@ -103,10 +104,14 @@ h1:focus {
     border-radius: 4px;
     font-weight: 800;
     font-size: 14px;
+    line-height: 150%;
+
 }
 
 .published-date {
     font-size: 14px;
+    line-height: 150%;
+
 }
 
 .description {
@@ -114,6 +119,7 @@ h1:focus {
     font-size: 16px;
     color: var(--Gray-500);
     white-space: inherit;
+    line-height: 150%;
 }
 
 .card__author {
